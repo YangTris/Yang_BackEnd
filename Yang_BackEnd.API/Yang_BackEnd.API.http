@@ -1,0 +1,6 @@
+@Yang_BackEnd.API_HostAddress = http://localhost:5081
+
+GET {{Yang_BackEnd.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
