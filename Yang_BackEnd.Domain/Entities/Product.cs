@@ -15,11 +15,11 @@ namespace Yang_BackEnd.Domain.Entities
         public string Name { get; set; }
         public decimal Price { get; set; }
         public string Description { get; set; }
-        public string Size { get; set; }
-        public string Color { get; set; }
         public string Image { get; set; }
         public int CategoryId { get; set; }
-        [ForeignKey("Category")]
-        public Category Category { get; set; }
+        [ForeignKey("CategoryId")]
+        public virtual Category Category { get; set; }
+
+        public virtual ICollection<ProductVariant> ProductVariants { get; set; }
     }
 }

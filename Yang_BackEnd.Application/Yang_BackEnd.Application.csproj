@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Yang_BackEnd.Domain\Yang_BackEnd.Domain.csproj" />
+    <ProjectReference Include="..\Yang_BackEnd.Infrastructure\Yang_BackEnd.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

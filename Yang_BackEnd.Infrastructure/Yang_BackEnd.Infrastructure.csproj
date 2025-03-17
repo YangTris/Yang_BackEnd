@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Yang_BackEnd.Application\Yang_BackEnd.Application.csproj" />
     <ProjectReference Include="..\Yang_BackEnd.Domain\Yang_BackEnd.Domain.csproj" />
   </ItemGroup>
 
